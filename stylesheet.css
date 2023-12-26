@@ -1,0 +1,51 @@
+header {
+  height:80px;
+  background-color: rgb(174, 166, 157);
+}
+header h1 {
+  font-size:20px;
+  color: white;
+  text-align:center ;
+  }
+.contents{
+  display: flex;
+  flex-wrap: wrap;
+}
+h2{
+  font-size:20px;
+}
+.favorites {
+  background-color: aliceblue;
+}
+.place {
+  background-color: beige;
+}
+.want {
+  background-color: rgb(249, 220, 225);
+}
+.mix {
+  width: 33%;
+  flex:auto;
+}
+.topic {
+  text-align:center;
+}
+.btn{
+  margin:40px;
+  padding:10px 24px;
+  width:45px%;
+  background-color:pink;
+  color:white;
+  border-color: rgb(110, 175, 231);
+  border-radius:8px;
+  display:inline-block;
+  box-shadow:10px 10px #baab97;
+}
+.btn:hover{
+  opacity: 0.7;
+} 
+.btn:active{
+  box-shadow: none;
+  position: relative;
+  top:8px;  
+}
