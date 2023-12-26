@@ -1,9 +1,10 @@
 header {
-  height:80px;
-  background-color: rgb(174, 166, 157);
+  height:60px;
+  background-color: rgb(174, 166, 157);  
 }
 header h1 {
   font-size:20px;
+  letter-spacing: 6px;
   color: white;
   text-align:center ;
   }
@@ -55,4 +56,33 @@ h2{
   background-color:rgb(192, 231, 255);
   border-color: rgb(110, 175, 231);
   box-shadow:10px 10px #d2abf3;
+}
+footer{
+  background-color: rgb(178, 179, 180);
+  height:140px;
+}
+.left {
+  margin: 20px 40px;
+  float:left;
+}
+h3 {
+  font-size: 20px;
+  color: azure;
+}
+.left p{
+  opacity: 0.6;
+}
+.right {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+  margin-right: 150px;
+}
+.right li{
+  float:left;
+  opacity: 0.6;
+}
+.right p{
+  letter-spacing: 10px;
+  color:azure;
 }
